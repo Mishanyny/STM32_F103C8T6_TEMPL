@@ -1,0 +1,16 @@
+{
+    "cmake.generator": "Ninja",
+    "cmake.configureEnvironment": {
+      "CMAKE_EXPORT_COMPILE_COMMANDS": "on"
+    },
+    "C_Cpp.default.intelliSenseMode": "gcc-arm",
+    "cortex-debug.gdbPath": "arm-none-eabi-gdb",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "files.associations": {
+      "stdlib.h": "c",
+      "main.h": "c",
+      "stm32f1xx_hal.h": "c",
+      "stm32f1xx_hal_conf.h": "c",
+      "stm32f1xx_hal_gpio.h": "c"
+    }
+  }
